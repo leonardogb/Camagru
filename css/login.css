@@ -1,0 +1,66 @@
+.general
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.login {
+    
+    box-shadow: 3px 3px 3px 0px grey;
+    border: solid 1px #a0a09a;
+    border-radius: 2px;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    margin: 20px;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    width: 300px;
+    height: 35px;
+    background-color: rgb(62, 130, 231);
+    color: white;
+    border: solid 1px rgb(124, 178, 255);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.home {
+    background-color: rgb(109, 109, 109);
+    padding: 5px;
+    margin: auto;
+    margin-top: 15px;
+    height: 20px;
+    width: 200px;
+    border: solid 1px rgb(139, 139, 139);
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+#iniciar
+{
+    display: block;
+}
+#reiniciar
+{
+    display: none;
+}
+#changeForm
+{
+    cursor: pointer;
+}
+#changeForm:hover
+{
+    color: green;
+}
